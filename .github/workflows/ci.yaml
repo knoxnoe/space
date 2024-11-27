@@ -1,0 +1,41 @@
+name: Build Test
+run-name: ${{ github.actor }} is testing build action 🚀
+on: 
+  pull_request:
+    branches:
+      - main
+    types:
+      - opened
+      - reopened
+      - synchronize
+jobs:
+  Build-Actions:
+    runs-on: ubuntu-latest
+    container:
+      image: node:18
+      env:
+        NODE_ENV: production
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup node:18
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      
+      - name: Install pnpm
+        run: npm install -g pnpm & pnpm install
+
+      - name: Run build
+        run: pnpm run build
+
+      - name: Check build result
+        run: |
+          if [ -f ./path/to/your/build/output ]; then
+            echo "🎉 The job was successful."
+          else
+            echo "Build failed."
+            exit 1
+          fi
