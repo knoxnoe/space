@@ -1,12 +1,12 @@
 [
   {
-    "text": "Guide",
-    "link": "/guide/",
-    "activeMatch": "/guide/"
+    "text": "T",
+    "link": "/t/",
+    "activeMatch": "/t/"
   },
   {
-    "text": "Hello World",
-    "link": "/hello/",
-    "activeMatch": "/hello/"
+    "text": "L",
+    "link": "/l/",
+    "activeMatch": "/l/"
   }
 ]
