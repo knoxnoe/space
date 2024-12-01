@@ -1,0 +1,12 @@
+[
+  {
+    "type": "file",
+    "name": "index",
+    "label": "Trace Anything"
+  },
+  {
+    "type": "dir",
+    "name": "node",
+    "label": "node"
+  }
+]

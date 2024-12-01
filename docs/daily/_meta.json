@@ -1,0 +1,12 @@
+[
+  {
+    "type": "file",
+    "name": "index",
+    "label": "Daily Overview"
+  },
+  {
+    "type": "dir",
+    "name": "2024",
+    "label": "2024"
+  }
+]
