@@ -1,12 +1,12 @@
 [
   {
-    "text": "T",
-    "link": "/t/",
-    "activeMatch": "/t/"
+    "text": "Daily",
+    "link": "/daily/",
+    "activeMatch": "/daily/"
   },
   {
-    "text": "L",
-    "link": "/l/",
-    "activeMatch": "/l/"
+    "text": "Trace",
+    "link": "/trace/",
+    "activeMatch": "/trace/"
   }
 ]
