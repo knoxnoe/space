@@ -1,6 +1,6 @@
 {
   "name": "space",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "build": "rspress build",
@@ -10,7 +10,7 @@
     "preview": "rspress preview"
   },
   "dependencies": {
-    "rspress": "^1.37.1"
+    "rspress": "^1.41.3"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.3",

@@ -3,5 +3,10 @@
     "type": "file",
     "name": "20241201.tools.mdx",
     "label": "Tools"
+  },
+  {
+    "type": "file",
+    "name": "20241201.cli",
+    "label": "Tech"
   }
 ]

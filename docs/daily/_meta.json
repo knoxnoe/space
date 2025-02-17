@@ -2,11 +2,11 @@
   {
     "type": "file",
     "name": "index",
-    "label": "Daily Overview"
+    "label": "Daily"
   },
   {
     "type": "dir",
-    "name": "2024",
-    "label": "2024"
+    "name": "2025",
+    "label": "2025"
   }
 ]
