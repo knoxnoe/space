@@ -1,12 +1,12 @@
 [
   {
     "type": "file",
-    "name": "20241201.tools.mdx",
-    "label": "Tools"
+    "name": "250222.pkg-json",
+    "label": "Package.json"
   },
   {
     "type": "file",
-    "name": "20241201.cli",
+    "name": "241201.cli",
     "label": "Tech"
   }
 ]
